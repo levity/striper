@@ -1,6 +1,6 @@
 require 'sinatra'
 
 post '/pay' do
-  'paid! ...not'
+  "body: #{request.body.read}\n"
 end
 
