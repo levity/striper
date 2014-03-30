@@ -25,4 +25,4 @@ Creating salty-stream-8518... done, stack is cedar
 http://salty-stream-8518.herokuapp.com/ | git@heroku.com:salty-stream-8518.git
 ```
 
-Take the address shown (`http://salty-stream-8518.herokuapp.com/`) and set it as the value of `stripeServerUrl` at the beginning of `main.js` in your [levity/donate](https://github.com/levity/donate) code.
+Take the address shown (e.g. `http://salty-stream-8518.herokuapp.com/`) and set it as the value of `stripeServerUrl` at the beginning of `main.js` in your [levity/donate](https://github.com/levity/donate) code.
