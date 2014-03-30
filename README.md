@@ -7,4 +7,12 @@ A server-side complement to Stripe Checkout
 
 ----
 
-Ready for [Heroku](http://www.heroku.com).
+Ready for [Heroku](http://www.heroku.com). After signing up for Heroku and installing [Heroku Toolbelt](https://toolbelt.heroku.com/), run the commands below to set up the server, replacing `[your secret key]` below with your Stripe secret key.
+
+```
+git clone git@github.com:levity/striper
+cd striper
+heroku apps:create
+heroku config:set STRIPE_SECRET_KEY=[your secret key]
+git push heroku master
+```
